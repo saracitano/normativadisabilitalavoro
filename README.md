@@ -50,3 +50,11 @@ La prima release indicizza **33 schede di articoli** per L. 68/1999 e D.Lgs. 216
 - [Verifica automatica del codice](.github/workflows/ci.yml)
 
 **Copertura reale:** 63 atti censiti; 33 schede per articolo; testi integrali delle 63 fonti non ancora caricati e validati. Il monitor tecnico e i controlli CI non certificano vigenza giuridica. Le versioni ufficiali richiedono reperimento e verifica dei metadati con revisione umana prima di poter indicare diritti applicabili.
+
+## Stato tecnico verificabile e acquisizione dei testi
+- [Stato reale della copertura e dei test](docs/STATO-IMPLEMENTAZIONE.md)
+- [Importazione XML ufficiali e versionamento](app/INGESTIONE-UFFICIALE.md)
+- [Critic documentale per articoli importati](app/legal_critic.py)
+- [Acquisizione da URL puntuali ufficiali](app/fetch_official.py)
+
+**Attenzione:** 63 atti censiti non equivalgono a 63 testi integrali importati. Le versioni non verificate non devono essere presentate come vigenti. I risultati dei test automatizzati sono controllabili nella scheda GitHub Actions.
