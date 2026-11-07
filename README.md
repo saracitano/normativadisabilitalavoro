@@ -19,3 +19,10 @@ Documentazione progettuale iniziale — 8 novembre 2026. Le norme elencate richi
 
 ## Riservatezza
 Questo repository è **pubblico**. Non pubblicare informazioni sanitarie, dati personali, dataset non anonimizzati, bozze scientifiche inedite o documenti riservati senza le necessarie autorizzazioni. Le future integrazioni richiedono accesso GitHub e un'operazione di aggiornamento esplicita.
+
+## Controllo critico delle fonti
+- [Critic delle fonti: metodo e audit iniziale](critic/README.md)
+- [Archivio strutturato delle schede](critic/fonti.csv)
+- [Script di controllo riproducibile](critic/critic.py)
+
+Il critic distingue pertinenza diretta, condizionata, complementare e contesto; la valutazione automatica dei metadati **non equivale** alla validazione giuridica dell'atto.
