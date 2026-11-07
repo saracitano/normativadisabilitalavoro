@@ -1,5 +1,11 @@
 name: Monitor fonti normative (controllo tecnico)
 on:
+  push:
+    paths:
+      - 'app/**'
+      - 'monitor/**'
+      - 'tests/**'
+      - '.github/workflows/check-normativa.yml'
   schedule:
     - cron: "15 7 * * 1"
   workflow_dispatch:
@@ -16,11 +22,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Convalida implementazione e test di sicurezza
+        run: python3 -m unittest discover -s tests -v
       - name: Controlla fonti ufficiali e genera report
+        if: github.event_name != 'push'
         run: python3 monitor/monitor.py
-      - name: Convalida test locali
-        run: python3 -m unittest discover -s tests
       - name: Registra solo controlli tecnici (non la vigenza giuridica)
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
