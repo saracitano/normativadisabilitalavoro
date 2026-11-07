@@ -49,7 +49,7 @@ TRUSTED_DOMAINS = (
     "parlamento.it", "agid.gov.it", "def.finanze.it"
 )
 
-def official_url(url):
+def is_official_source(url):
     parsed = urlparse(url)
     host = (parsed.hostname or "").lower()
     return (parsed.scheme == "https" and
@@ -82,7 +82,7 @@ def parse_xml(xmltext):
     return articles
 
 def ingest(db, act, xml_file, publication_id, version_label, effective_as_of, origin_url):
-    if not origin_url.startswith("https://"):
+    if not is_official_source(origin_url):
         raise ValueError("L'URL deve essere HTTPS")
     if not publication_id or not version_label:
         raise ValueError("Servono identificativo documento e versione")
@@ -139,7 +139,7 @@ def review(db, act, article, as_of, reviewer, official_url, outcome, justificati
     if not all((as_of,reviewer,official_url,justification)): raise ValueError("Metadati di revisione incompleti")
     datetime.strptime(as_of,"%Y-%m-%d")
     if len(justification)<30: raise ValueError("Motivazione insufficiente")
-    if not globals()["official_url"](official_url): raise ValueError("Serve una fonte istituzionale HTTPS riconosciuta")
+    if not is_official_source(official_url): raise ValueError("Serve una fonte istituzionale HTTPS riconosciuta")
     with db:
         db.executescript(SCHEMA)
         if article and not db.execute("SELECT 1 FROM articles WHERE act_id=? AND number=?",(act,article)).fetchone():
