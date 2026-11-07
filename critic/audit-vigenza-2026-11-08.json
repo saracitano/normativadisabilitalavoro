@@ -6,15 +6,16 @@
   "risultati": {
     "totale": 63,
     "per_stato": {
-      "atto_vigente_riscontrato": 20,
-      "non_verificato_singolarmente": 36,
+      "atto_vigente_riscontrato": 22,
+      "non_verificato_singolarmente": 32,
       "abrogato_da_verificare_su_articolo": 1,
+      "atto_con_articolo_verificabile": 2,
       "testo_originario_rintracciato": 2,
       "circolare_ufficiale_rintracciata": 4
     },
     "articoli_certificati": 0,
-    "atti_con_evidenza_rintracciata": 27,
-    "atti_non_verificati_individualmente": 36
+    "atti_con_evidenza_rintracciata": 31,
+    "atti_non_verificati_individualmente": 32
   },
   "records": [
     {
@@ -174,22 +175,22 @@
     {
       "id": "DLGS165-2001",
       "titolo": "D.Lgs. 30 marzo 2001 n. 165",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_con_articolo_verificabile",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=7&atto.codiceRedazionale=001G0219&atto.dataPubblicazioneGazzetta=2001-05-09",
+      "nota": "Art.7 testo Normattiva: divieto discriminazione per disabilità nel lavoro pubblico; ultimo aggiornamento atto 11/08/2026; articolo non validato a data esatta.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
     {
       "id": "DLGS151-2001",
       "titolo": "D.Lgs. 26 marzo 2001 n. 151",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=001G0200&atto.dataPubblicazioneGazzetta=2001-04-26",
+      "nota": "Normattiva mostra testo vigente al 11/10/2026; aggiornamento 30/12/2025.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -229,11 +230,11 @@
     {
       "id": "L4-2004",
       "titolo": "Legge 9 gennaio 2004 n. 4",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=004G0015&atto.dataPubblicazioneGazzetta=2004-01-17",
+      "nota": "Normattiva mostra testo vigente 06/10/2026; aggiornamento 01/07/2022.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -273,11 +274,11 @@
     {
       "id": "DLGS81-2008",
       "titolo": "D.Lgs. 9 aprile 2008 n. 81",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_con_articolo_verificabile",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=29&atto.codiceRedazionale=008G0104&atto.dataPubblicazioneGazzetta=2008-04-30",
+      "nota": "Testo normativo su salute e sicurezza; aggiornamento atto 23/03/2026; vigenza art.304 specifica ancora da controllare.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
