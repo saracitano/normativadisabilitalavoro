@@ -30,12 +30,12 @@ def bootstrap(db, seed):
     data=json.loads(Path(seed).read_text(encoding="utf-8"))
     with db:
         for a in data["acts"]:
-            db.execute("INSERT OR REPLACE INTO acts VALUES (?,?,?,?)",
+            db.execute("""INSERT INTO acts VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET title=excluded.title, source_url=excluded.source_url, scope=excluded.scope""",
                        (a["id"],a["title"],a["source_url"],a["scope"]))
             for v in a["articles"]:
-                db.execute("""INSERT OR REPLACE INTO articles
+                db.execute("""INSERT INTO articles
                     (act_id,number,heading,explanation,keywords,relevance,review_status,warning)
-                    VALUES (?,?,?,?,?,?,?,?)""",
+                    VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(act_id,number) DO UPDATE SET heading=excluded.heading, explanation=excluded.explanation, keywords=excluded.keywords, relevance=excluded.relevance, review_status=excluded.review_status, warning=excluded.warning""",
                     (a["id"],v["number"],v["heading"],v["explanation"],v["keywords"],
                      v["relevance"],v["status"],v.get("future_effect_warning","")))
 
