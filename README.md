@@ -33,3 +33,11 @@ Il critic distingue pertinenza diretta, condizionata, complementare e contesto; 
 - [Codice Python dell'archivio](app/legislation.py)
 
 La prima release indicizza **33 schede di articoli** per L. 68/1999 e D.Lgs. 216/2003. Le sintesi non sostituiscono il testo integrale: il caricamento delle versioni ufficiali avviene mediante importazione tracciata e richiede revisione.
+
+## Archivio ampliato e controllo delle fonti — novembre 2026
+- [63 atti indicizzati con copertura documentata](app/seed.json) — 33 schede per articolo, altre fonti a livello di atto, da completare.
+- [Ricerca nel database SQLite](app/README.md)
+- [Monitoraggio tecnico delle fonti ufficiali](monitor/README.md)
+- [GitHub Actions: controllo settimanale](.github/workflows/check-normativa.yml)
+
+**Il monitor non certifica la vigenza**: identifica possibili modifiche tecniche delle pagine, indisponibilità e collegamenti generici. La validazione dell'efficacia normativa richiede controllo umano sul testo e sul regime temporale.
