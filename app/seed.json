@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "disclaimer": "Schede interpretative, NON testo integrale né certificazione di vigenza. I testi integrali sono importabili da file ufficiali con provenance e revisione.",
+  "disclaimer": "Catalogo indicizzato, non banco testi integrali certificati. Le fonti senza articoli sono schede di atti; la vigenza è da verificare.",
   "acts": [
     {
       "id": "L68-1999",
@@ -284,6 +284,616 @@
           "status": "scheda_da_validare"
         }
       ]
+    },
+    {
+      "id": "COST-IT",
+      "title": "Costituzione della Repubblica italiana",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "principi",
+      "relation": "contesto",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L104-1992",
+      "title": "Legge 5 febbraio 1992 n. 104",
+      "source_url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
+      "scope": "diritti e permessi",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L381-1991",
+      "title": "Legge 8 novembre 1991 n. 381",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "cooperative sociali",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L118-1971",
+      "title": "Legge 30 marzo 1971 n. 118",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "invalidità civile",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L222-1984",
+      "title": "Legge 12 giugno 1984 n. 222",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "previdenza invalidità",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L113-1985",
+      "title": "Legge 29 marzo 1985 n. 113",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "lavoro persone non vedenti",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L403-1971",
+      "title": "Legge 19 maggio 1971 n. 403",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "collocamento speciale non vedenti",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L29-1994",
+      "title": "Legge 11 gennaio 1994 n. 29",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "collocamento speciale non vedenti",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS626-1994",
+      "title": "D.Lgs. 19 settembre 1994 n. 626",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "sicurezza storica abrogata",
+      "relation": "storica",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DPCM2000-01-13",
+      "title": "DPCM 13 gennaio 2000",
+      "source_url": "https://www.lavoro.gov.it/",
+      "scope": "accertamenti collocamento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DPR333-2000",
+      "title": "DPR 10 ottobre 2000 n. 333",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "regolamento collocamento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DIR2000-78",
+      "title": "Direttiva 2000/78/CE",
+      "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32000L0078",
+      "scope": "parità di trattamento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS165-2001",
+      "title": "D.Lgs. 30 marzo 2001 n. 165",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "pubblico impiego",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS151-2001",
+      "title": "D.Lgs. 26 marzo 2001 n. 151",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "congedi permessi",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L152-2001",
+      "title": "Legge 30 marzo 2001 n. 152",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "patronati",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS276-2003",
+      "title": "D.Lgs. 10 settembre 2003 n. 276",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "lavoro convenzioni",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS196-2003",
+      "title": "D.Lgs. 30 giugno 2003 n. 196",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "protezione dati",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L4-2004",
+      "title": "Legge 9 gennaio 2004 n. 4",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "accessibilità digitale",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L67-2006",
+      "title": "Legge 1 marzo 2006 n. 67",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "antidiscriminazione",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS198-2006",
+      "title": "D.Lgs. 11 aprile 2006 n. 198",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "pari opportunità",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L247-2007",
+      "title": "Legge 24 dicembre 2007 n. 247",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "riforma lavoro",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS81-2008",
+      "title": "D.Lgs. 9 aprile 2008 n. 81",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "salute e sicurezza",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L18-2009",
+      "title": "Legge 3 marzo 2009 n. 18",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "Convenzione ONU",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L170-2010",
+      "title": "Legge 8 ottobre 2010 n. 170",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "DSA",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS150-2011",
+      "title": "D.Lgs. 1 settembre 2011 n. 150",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "controversie discriminazione",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L92-2012",
+      "title": "Legge 28 giugno 2012 n. 92",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "mercato lavoro",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DL76-2013",
+      "title": "D.L. 28 giugno 2013 n. 76 conv. L. 99/2013",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "accomodamento lavoro",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L190-2014",
+      "title": "Legge 23 dicembre 2014 n. 190",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "reinserimento INAIL",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS150-2015",
+      "title": "D.Lgs. 14 settembre 2015 n. 150",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "politiche attive",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS151-2015",
+      "title": "D.Lgs. 14 settembre 2015 n. 151",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "modifiche collocamento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L112-2016",
+      "title": "Legge 22 giugno 2016 n. 112",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "autonomia",
+      "relation": "contesto",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "REG2016-679",
+      "title": "Regolamento UE 2016/679",
+      "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679",
+      "scope": "GDPR dati sanitari",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DIR2016-2102",
+      "title": "Direttiva UE 2016/2102",
+      "source_url": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj?locale=it",
+      "scope": "accessibilità servizi digitali PA",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS112-2017",
+      "title": "D.Lgs. 3 luglio 2017 n. 112",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "impresa sociale",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS117-2017",
+      "title": "D.Lgs. 3 luglio 2017 n. 117",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "terzo settore",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS101-2018",
+      "title": "D.Lgs. 10 agosto 2018 n. 101",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "adeguamento GDPR",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS106-2018",
+      "title": "D.Lgs. 10 agosto 2018 n. 106",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "accessibilità PA",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DIR2019-882",
+      "title": "Direttiva UE 2019/882",
+      "source_url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj?locale=it",
+      "scope": "accessibilità prodotti servizi",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DL80-2021",
+      "title": "D.L. 9 giugno 2021 n. 80 conv. L. 113/2021",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "concorsi DSA",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DM2021-11-09",
+      "title": "DM 9 novembre 2021",
+      "source_url": "https://www.gazzettaufficiale.it/eli/id/2021/12/28/21A07567/sg",
+      "scope": "misure concorsi DSA",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DM2021-12-29",
+      "title": "Decreto interministeriale 29 dicembre 2021",
+      "source_url": "https://www.lavoro.gov.it/",
+      "scope": "banca dati collocamento mirato",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L227-2021",
+      "title": "Legge 22 dicembre 2021 n. 227",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "delega disabilità",
+      "relation": "contesto",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DL4-2022",
+      "title": "D.L. 27 gennaio 2022 n. 4 conv. L. 25/2022",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "DSA lavoro privato",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DM43-2022",
+      "title": "DM Lavoro 11 marzo 2022 n. 43",
+      "source_url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-ministeriale-n.-43-dell11-marzo-2022",
+      "scope": "linee guida collocamento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS82-2022",
+      "title": "D.Lgs. 27 maggio 2022 n. 82",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "accessibilità prodotti e servizi",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS105-2022",
+      "title": "D.Lgs. 30 giugno 2022 n. 105",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "permessi e congedi",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DD154-2023",
+      "title": "Decreto direttoriale 11 settembre 2023 n. 154",
+      "source_url": "https://www.lavoro.gov.it/",
+      "scope": "buone prassi collocamento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS222-2023",
+      "title": "D.Lgs. 13 dicembre 2023 n. 222",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "accessibilità PA",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS20-2024",
+      "title": "D.Lgs. 5 febbraio 2024 n. 20",
+      "source_url": "https://www.normattiva.it/",
+      "scope": "garante disabilità",
+      "relation": "complementare",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DLGS62-2024",
+      "title": "D.Lgs. 3 maggio 2024 n. 62",
+      "source_url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
+      "scope": "riforma disabilità progetto vita",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "REG2024-1689",
+      "title": "Regolamento UE 2024/1689",
+      "source_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1689",
+      "scope": "AI risorse umane",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "DM94-2025",
+      "title": "DM Salute 10 aprile 2025 n. 94",
+      "source_url": "https://www.gazzettaufficiale.it/eli/id/2025/06/27/25G00098/sg",
+      "scope": "sperimentazione valutazione disabilità",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "L106-2025",
+      "title": "Legge 18 luglio 2025 n. 106",
+      "source_url": "https://www.normattiva.it/eli/id/2025/07/25/25G00114/CONSOLIDATED/",
+      "scope": "congedi per specifiche patologie",
+      "relation": "condizionata",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "LR13-2003-LOM",
+      "title": "L.R. Lombardia 4 agosto 2003 n. 13",
+      "source_url": "https://normelombardia.consiglio.regione.lombardia.it/accessibile/main.aspx?iddoc=lr002003080400013&view=showdoc",
+      "scope": "lavoro disabilità Lombardia",
+      "relation": "territoriale",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INAIL258-2016",
+      "title": "Determina INAIL 11 luglio 2016 n. 258",
+      "source_url": "https://www.inail.it/",
+      "scope": "reinserimento disabilità da lavoro",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INAIL51-2016",
+      "title": "Circolare INAIL 30 dicembre 2016 n. 51",
+      "source_url": "https://www.inail.it/",
+      "scope": "reinserimento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INAIL30-2017",
+      "title": "Circolare INAIL 25 luglio 2017 n. 30",
+      "source_url": "https://www.inail.it/",
+      "scope": "reinserimento nuova occupazione",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INAIL527-2018",
+      "title": "Determina INAIL 19 dicembre 2018 n. 527",
+      "source_url": "https://www.inail.it/",
+      "scope": "regolamento reinserimento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INAIL6-2019",
+      "title": "Circolare INAIL 26 febbraio 2019 n. 6",
+      "source_url": "https://www.inail.it/",
+      "scope": "reinserimento",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INAIL34-2020",
+      "title": "Circolare INAIL 11 settembre 2020 n. 34",
+      "source_url": "https://www.inail.it/",
+      "scope": "reinserimento chiarimenti",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
+    },
+    {
+      "id": "INPS99-2016",
+      "title": "Circolare INPS 13 giugno 2016 n. 99",
+      "source_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+99+del+13-06-2016.htm",
+      "scope": "incentivi assunzioni",
+      "relation": "diretta",
+      "article_coverage": "non_acquisita",
+      "verification_status": "testo_e_vigenza_da_verificare",
+      "articles": []
     }
   ]
 }
