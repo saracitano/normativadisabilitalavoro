@@ -13,6 +13,7 @@ import sqlite3
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 from .legislation import connect
 
 SCHEMA = """
@@ -42,6 +43,19 @@ CREATE TABLE IF NOT EXISTS legal_reviews (
  PRIMARY KEY(act_id, article, review_date, as_of)
 );
 """
+TRUSTED_DOMAINS = (
+    "normattiva.it", "gazzettaufficiale.it", "dati.normattiva.it",
+    "eur-lex.europa.eu", "lavoro.gov.it", "inail.it", "inps.it",
+    "parlamento.it", "agid.gov.it", "def.finanze.it"
+)
+
+def official_url(url):
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    return (parsed.scheme == "https" and
+            any(host == domain or host.endswith("." + domain)
+                for domain in TRUSTED_DOMAINS))
+
 VALID_OUTCOMES = {"vigente_verificato","non_vigente_verificato","efficacia_futura","incerto","fonte_non_pertinente"}
 
 def local(tag):
@@ -125,7 +139,7 @@ def review(db, act, article, as_of, reviewer, official_url, outcome, justificati
     if not all((as_of,reviewer,official_url,justification)): raise ValueError("Metadati di revisione incompleti")
     datetime.strptime(as_of,"%Y-%m-%d")
     if len(justification)<30: raise ValueError("Motivazione insufficiente")
-    if not official_url.startswith("https://"): raise ValueError("Serve una fonte ufficiale HTTPS")
+    if not globals()["official_url"](official_url): raise ValueError("Serve una fonte istituzionale HTTPS riconosciuta")
     with db:
         db.executescript(SCHEMA)
         if article and not db.execute("SELECT 1 FROM articles WHERE act_id=? AND number=?",(act,article)).fetchone():
