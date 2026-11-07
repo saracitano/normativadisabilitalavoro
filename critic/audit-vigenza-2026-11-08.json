@@ -6,16 +6,18 @@
   "risultati": {
     "totale": 63,
     "per_stato": {
-      "atto_vigente_riscontrato": 22,
-      "non_verificato_singolarmente": 32,
+      "atto_vigente_riscontrato": 30,
+      "non_verificato_singolarmente": 18,
+      "atto_con_abrogazione_parziale": 1,
+      "testo_originario_rintracciato": 3,
       "abrogato_da_verificare_su_articolo": 1,
       "atto_con_articolo_verificabile": 2,
-      "testo_originario_rintracciato": 2,
+      "atto_pubblicato_operativita_non_verificata": 4,
       "circolare_ufficiale_rintracciata": 4
     },
     "articoli_certificati": 0,
-    "atti_con_evidenza_rintracciata": 31,
-    "atti_non_verificati_individualmente": 32
+    "atti_con_evidenza_rintracciata": 45,
+    "atti_non_verificati_individualmente": 18
   },
   "records": [
     {
@@ -87,22 +89,22 @@
     {
       "id": "L222-1984",
       "titolo": "Legge 12 giugno 1984 n. 222",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
+      "nota": "Normattiva: vigente al 06/04/2026; previdenza invalidità distinta dall'invalidità civile.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
     {
       "id": "L113-1985",
       "titolo": "Legge 29 marzo 1985 n. 113",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_con_abrogazione_parziale",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=085U0113&atto.dataPubblicazioneGazzetta=1985-04-05",
+      "nota": "Normattiva: versione multivigente; art. 1 comma 1 abrogato da D.Lgs.151/2015; non qualificare ogni comma come vigente.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -120,11 +122,11 @@
     {
       "id": "L29-1994",
       "titolo": "Legge 11 gennaio 1994 n. 29",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "testo_originario_rintracciato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/eli/id/1994/01/18/094G0032/ORIGINAL",
+      "nota": "Esistenza e testo originario verificati; stato attuale dei singoli articoli non determinato.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -208,11 +210,11 @@
     {
       "id": "DLGS276-2003",
       "titolo": "D.Lgs. 10 settembre 2003 n. 276",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0297&atto.dataPubblicazioneGazzetta=2003-10-09",
+      "nota": "Normattiva: vigente al 18/10/2026; identificare art. 14 e sua disciplina specifica.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -252,11 +254,11 @@
     {
       "id": "DLGS198-2006",
       "titolo": "D.Lgs. 11 aprile 2006 n. 198",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=006G0216&atto.dataPubblicazioneGazzetta=2006-05-31",
+      "nota": "Normattiva: vigente al 28/10/2026; norma soprattutto sulle pari opportunità tra donne e uomini, pertinenza disabilità indiretta.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -307,22 +309,22 @@
     {
       "id": "DLGS150-2011",
       "titolo": "D.Lgs. 1 settembre 2011 n. 150",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=011G0192&atto.dataPubblicazioneGazzetta=2011-09-21",
+      "nota": "Normattiva: vigente al 02/11/2026, aggiornamento 12/06/2026; rilevanza procedure di discriminazione.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
     {
       "id": "L92-2012",
       "titolo": "Legge 28 giugno 2012 n. 92",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=012G0115&atto.dataPubblicazioneGazzetta=2012-07-03",
+      "nota": "Normattiva: versione vigente al 19/09/2026; legge ampia, selezionare solo disposizioni pertinenti.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -351,11 +353,11 @@
     {
       "id": "DLGS150-2015",
       "titolo": "D.Lgs. 14 settembre 2015 n. 150",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=15G00162&atto.dataPubblicazioneGazzetta=2015-09-23",
+      "nota": "Normattiva: vigente al 18/10/2026, politiche attive e servizi al lavoro.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -428,22 +430,22 @@
     {
       "id": "DLGS101-2018",
       "titolo": "D.Lgs. 10 agosto 2018 n. 101",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=18G00129&atto.dataPubblicazioneGazzetta=2018-09-04",
+      "nota": "Normattiva: versione vigente al 19/10/2026; decreto modificativo del Codice privacy.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
     {
       "id": "DLGS106-2018",
       "titolo": "D.Lgs. 10 agosto 2018 n. 106",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_vigente_riscontrato",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=18G00133&atto.dataPubblicazioneGazzetta=2018-09-11",
+      "nota": "Normattiva: vigente al 18/09/2026; disciplina accessibilità digitale pubblica.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -472,11 +474,11 @@
     {
       "id": "DM2021-11-09",
       "titolo": "DM 9 novembre 2021",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_pubblicato_operativita_non_verificata",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.gazzettaufficiale.it/eli/id/2021/12/28/21A07567/sg",
+      "nota": "Gazzetta Ufficiale: testo originario Decreto 09/11/2021 concorsi DSA; confermare successive modifiche/prassi.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -516,11 +518,11 @@
     {
       "id": "DM43-2022",
       "titolo": "DM Lavoro 11 marzo 2022 n. 43",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_pubblicato_operativita_non_verificata",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-ministeriale-n.-43-dell11-marzo-2022",
+      "nota": "Ministero Lavoro: linee guida collocamento mirato, pubblicate il 17/03/2022; verificarne applicazione corrente.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -549,11 +551,11 @@
     {
       "id": "DD154-2023",
       "titolo": "Decreto direttoriale 11 settembre 2023 n. 154",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_pubblicato_operativita_non_verificata",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-direttoriale-n.-154-dell11-settembre-2023",
+      "nota": "Ministero Lavoro: piattaforma e criteri per buone prassi, non fonte di diritti individuali generalizzati.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
@@ -604,11 +606,11 @@
     {
       "id": "DM94-2025",
       "titolo": "DM Salute 10 aprile 2025 n. 94",
-      "stato_atto": "non_verificato_singolarmente",
+      "stato_atto": "atto_pubblicato_operativita_non_verificata",
       "stato_articoli": "non_verificato",
       "applicabilita": "non_certificata",
-      "fonte_consultata": null,
-      "nota": "Censimento precedente: in questa revisione non è stato controllato il testo ufficiale dell'atto.",
+      "fonte_consultata": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=25G00098&atto.dataPubblicazioneGazzetta=2025-06-27",
+      "nota": "Gazzetta Ufficiale: entrata in vigore 12/07/2025; regolamento legato al periodo di sperimentazione, applicazione delimitata.",
       "data_audit": "2026-11-08",
       "data_vigenza_certificata": null
     },
