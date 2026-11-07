@@ -33,7 +33,11 @@ def evaluate(db, query, as_of, limit=25):
                        FROM official_versions v
                        JOIN articles a ON a.act_id=v.act_id AND a.number=v.number
                        JOIN acts t ON t.id=v.act_id
-                       WHERE v.version_date<=?""",(as_of,)).fetchall()
+                       WHERE v.version_date=(
+                          SELECT MAX(v2.version_date) FROM official_versions v2
+                          WHERE v2.act_id=v.act_id AND v2.number=v.number
+                                AND v2.version_date<=?
+                       )""",(as_of,)).fetchall()
     result=[]
     for act,article,version_date,url,body,sha,heading,explanation,title in rows:
         sections=re.split(r"(?<=[.;])\s+",body)
@@ -45,16 +49,16 @@ def evaluate(db, query, as_of, limit=25):
         ranked.sort(key=lambda x:-x[0])
         evidence=" ".join(x[1] for x in ranked[:2])[:500]
         review=latest_review(db,act,article,as_of)
-        validated=bool(review and review[0]=="vigente_verificato")
+        validated=False  # A review must be cryptographically tied to this exact version before any automatic certification
         result.append({
           "act_id":act,"article":article,"act_title":title,"heading":heading,
           "as_of":as_of,"imported_version_date":version_date,
           "source_url":url,"document_sha256":sha,"evidence_excerpt":evidence,
           "relevance_score_lexical":sum(x[0] for x in ranked[:2]),
-          "legal_status":"vigente_verificato_per_data" if validated else "non_certificato",
+          "legal_status":"non_certificato",
           "review":None if not review else {"outcome":review[0],"as_of":review[1],
                                         "reviewer":review[2],"source_url":review[3]},
-          "warning":"La corrispondenza lessicale non prova conferenza o applicabilita; verificare destinatari e requisiti."
+          "warning":"La corrispondenza lessicale non prova conferenza o applicabilita; lo stato giuridico non e certificato. Il riesame non e ancora legato all hash della versione."
         })
     result.sort(key=lambda x:-x["relevance_score_lexical"])
     return result[:limit]
