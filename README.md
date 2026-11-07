@@ -41,3 +41,12 @@ La prima release indicizza **33 schede di articoli** per L. 68/1999 e D.Lgs. 216
 - [GitHub Actions: controllo settimanale](.github/workflows/check-normativa.yml)
 
 **Il monitor non certifica la vigenza**: identifica possibili modifiche tecniche delle pagine, indisponibilità e collegamenti generici. La validazione dell'efficacia normativa richiede controllo umano sul testo e sul regime temporale.
+
+## Acquisizione integrale e audit (aggiornamento 8 novembre 2026)
+- [Importazione XML ufficiali da URL istituzionali](app/ACQUISIZIONE-ONLINE.md)
+- [Importazione documenti, versioni e revisione](app/INGESTIONE-UFFICIALE.md)
+- [Critic delle evidenze da articoli importati](app/legal_critic.py)
+- [Audit dello stato di copertura](app/audit.py)
+- [Verifica automatica del codice](.github/workflows/ci.yml)
+
+**Copertura reale:** 63 atti censiti; 33 schede per articolo; testi integrali delle 63 fonti non ancora caricati e validati. Il monitor tecnico e i controlli CI non certificano vigenza giuridica. Le versioni ufficiali richiedono reperimento e verifica dei metadati con revisione umana prima di poter indicare diritti applicabili.
