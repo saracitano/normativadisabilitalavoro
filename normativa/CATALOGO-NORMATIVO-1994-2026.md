@@ -48,7 +48,7 @@
 | 2011 | D.Lgs. 1 settembre 2011, n. 150, art. 28 | Procedimenti giudiziari in materia di discriminazione |
 | 2013 | D.L. 28 giugno 2013, n. 76 (L. 99/2013) | Introduzione dell'obbligo di accomodamenti ragionevoli nel D.Lgs. 216/2003 |
 | 2021 | Legge 22 dicembre 2021, n. 227 | Delega al Governo in materia di disabilità |
-| 2023 | D.Lgs. 5 febbraio 2024, n. 20 | Istituzione dell'Autorità Garante nazionale dei diritti delle persone con disabilità (anno corretto: 2024) |
+| 2024 | D.Lgs. 5 febbraio 2024, n. 20 | Istituzione dell'Autorità Garante nazionale dei diritti delle persone con disabilità (anno corretto: 2024) |
 | 2024 | D.Lgs. 3 maggio 2024, n. 62 | Definizioni, valutazione di base, accomodamento ragionevole, progetto di vita; regime attuativo e transitorio da verificare |
 | 2023 | D.Lgs. 13 dicembre 2023, n. 222 | Accessibilità e inclusione nei servizi delle pubbliche amministrazioni |
 
@@ -125,6 +125,10 @@ Ogni fonte deve avere: identificativo, tipo, numero, data, titolo, giurisdizione
 Il catalogo è un **indice di lavoro con fonti identificabili**, non un certificato di completezza né una consulenza legale.
 
 
+## Integrazione multisito delle fonti (8 novembre 2026)
+
+**[Consulta l'approfondimento INAIL, INPS, AgID, UE, Ministero e prime fonti regionali](INTEGRAZIONE-MULTISITO-2026-11-08.md).** Include la Legge 106/2025, il DM Salute 94/2025, il sistema INAIL per reinserimento, la Circolare INPS 99/2016, la Legge regionale Lombardia 13/2003 e ulteriori riferimenti. Parte integrante del presente catalogo, da consolidare progressivamente senza duplicazioni.
+
 ## 12. Controlli ufficiali documentati — 8 novembre 2026
 
 | Fonte | Verifica effettuata | Esito e limiti |
@@ -149,3 +153,4 @@ Il catalogo è un **indice di lavoro con fonti identificabili**, non un certific
 |---|---|---|
 | 2026-11-08 | Costituzione del catalogo nazionale/UE ampliato | Ricognizione iniziale |
 | 2026-11-08 | Conversione in documento permanente; inserimento protocollo di aggiornamento e controlli ufficiali documentati | Pubblicato |
+| 2026-11-08 | Ricerca ampliata su INAIL, INPS, AgID, EUR-Lex, Ministero, Normattiva, Gazzetta Ufficiale e prime fonti regionali; correzione anno D.Lgs. 20/2024 | Pubblicato in integrazione collegata |
