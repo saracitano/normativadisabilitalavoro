@@ -1,0 +1,289 @@
+{
+  "updated": "2026-11-08",
+  "disclaimer": "Schede interpretative, NON testo integrale né certificazione di vigenza. I testi integrali sono importabili da file ufficiali con provenance e revisione.",
+  "acts": [
+    {
+      "id": "L68-1999",
+      "title": "Legge 12 marzo 1999, n. 68",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=099G0123&atto.dataPubblicazioneGazzetta=1999-03-23&tipoDettaglio=vigente",
+      "article_url_base": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=099G0123&atto.dataPubblicazioneGazzetta=1999-03-23",
+      "scope": "collocamento mirato",
+      "articles": [
+        {
+          "number": "1",
+          "heading": "Collocamento dei disabili",
+          "explanation": "Il campo di applicazione identifica specifiche categorie di persone e forme di accertamento. La diagnosi, da sola, non equivale ai requisiti per il collocamento mirato.",
+          "keywords": "collocamento invalidita requisiti disabilita autismo",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "2",
+          "heading": "Collocamento mirato",
+          "explanation": "Definisce il sistema di strumenti tecnici e di supporto per valutare capacità lavorative e favorire l'inserimento in posti adatti.",
+          "keywords": "collocamento mirato valutazione abilita inserimento",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "3",
+          "heading": "Assunzioni obbligatorie. Quote di riserva",
+          "explanation": "Disciplina le quote di assunzione in relazione alla dimensione del datore di lavoro, con condizioni ed eccezioni.",
+          "keywords": "assunzioni obbligatorie imprese quote riserva",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "4",
+          "heading": "Criteri di computo della quota di riserva",
+          "explanation": "Regola il calcolo dei dipendenti rilevanti per la quota di riserva e i criteri di computabilità.",
+          "keywords": "quota computo dipendenti",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "5",
+          "heading": "Esclusioni, esoneri parziali e contributi esonerativi",
+          "explanation": "Disciplina eccezioni ed esoneri dall'obbligo, con relative condizioni.",
+          "keywords": "esonero imprese obblighi",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "6",
+          "heading": "Servizi per l'inserimento lavorativo",
+          "explanation": "Individua servizi e competenze per l'inserimento e il collocamento.",
+          "keywords": "servizi collocamento centri impiego",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "7",
+          "heading": "Modalità delle assunzioni obbligatorie",
+          "explanation": "Regola le modalità con cui i datori di lavoro adempiono agli obblighi.",
+          "keywords": "assunzione procedure",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "8",
+          "heading": "Elenchi e graduatorie",
+          "explanation": "Riguarda l'iscrizione negli elenchi e le modalità di accesso ai servizi competenti.",
+          "keywords": "iscrizione elenchi graduatorie",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "9",
+          "heading": "Richieste di avviamento",
+          "explanation": "Riguarda le richieste dei datori di lavoro e l'avviamento dei lavoratori.",
+          "keywords": "avviamento richieste",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "10",
+          "heading": "Rapporto di lavoro dei disabili obbligatoriamente assunti",
+          "explanation": "Disciplina profili del rapporto lavorativo e della tutela della persona assunta.",
+          "keywords": "rapporto lavoro tutela",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "11",
+          "heading": "Convenzioni e convenzioni di integrazione lavorativa",
+          "explanation": "Prevede strumenti convenzionali per programmare l'inserimento lavorativo.",
+          "keywords": "convenzioni integrazione",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "12",
+          "heading": "Convenzioni di inserimento lavorativo temporaneo con finalità formative",
+          "explanation": "Disciplina specifiche convenzioni e percorsi temporanei, da leggere nel testo vigente.",
+          "keywords": "convenzioni formazione",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "12-bis",
+          "heading": "Convenzioni di inserimento lavorativo",
+          "explanation": "Prevede ulteriori modalità convenzionali di inserimento con requisiti specifici.",
+          "keywords": "convenzioni inserimento",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "13",
+          "heading": "Incentivi alle assunzioni",
+          "explanation": "Disciplina condizioni e incentivi per l'assunzione di lavoratori con disabilità.",
+          "keywords": "incentivi assunzione aziende",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "14",
+          "heading": "Fondo regionale per l'occupazione dei disabili",
+          "explanation": "Riguarda l'organizzazione dei fondi regionali per interventi di inserimento.",
+          "keywords": "fondo regionale occupazione",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "15",
+          "heading": "Sanzioni",
+          "explanation": "Riguarda le conseguenze dell'inosservanza degli obblighi previsti.",
+          "keywords": "sanzioni obblighi",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "16",
+          "heading": "Concorsi presso le pubbliche amministrazioni",
+          "explanation": "Disciplina aspetti dell'accesso al lavoro nelle pubbliche amministrazioni.",
+          "keywords": "concorsi pubblica amministrazione",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "17",
+          "heading": "Obbligo di certificazione",
+          "explanation": "Riguarda adempimenti e certificazioni per i datori di lavoro in specifici rapporti con la pubblica amministrazione.",
+          "keywords": "certificazione imprese",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "18",
+          "heading": "Disposizioni transitorie e finali",
+          "explanation": "Contiene regole transitorie e disposizioni finali da verificare storicamente.",
+          "keywords": "transitorio",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "19",
+          "heading": "Regioni a statuto speciale e province autonome",
+          "explanation": "Richiede attenzione alle competenze delle autonomie territoriali.",
+          "keywords": "regioni autonomie",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "20",
+          "heading": "Regolamento di esecuzione",
+          "explanation": "Riguarda le disposizioni esecutive della legge.",
+          "keywords": "regolamento",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "21",
+          "heading": "Relazione al Parlamento",
+          "explanation": "Prevede attività di rendicontazione sull'attuazione della legge.",
+          "keywords": "monitoraggio relazione",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "22",
+          "heading": "Abrogazioni",
+          "explanation": "Indica disposizioni abrogate e coordinamento con il quadro precedente.",
+          "keywords": "abrogazioni",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "23",
+          "heading": "Entrata in vigore",
+          "explanation": "Disciplina l'efficacia iniziale della legge.",
+          "keywords": "entrata vigore",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        }
+      ]
+    },
+    {
+      "id": "DLGS216-2003",
+      "title": "Decreto legislativo 9 luglio 2003, n. 216",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0240&atto.dataPubblicazioneGazzetta=2003-08-13&tipoDettaglio=vigente",
+      "article_url_base": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0240&atto.dataPubblicazioneGazzetta=2003-08-13",
+      "scope": "non discriminazione",
+      "articles": [
+        {
+          "number": "1",
+          "heading": "Oggetto",
+          "explanation": "Definisce finalità e ambiti del sistema di tutela della parità di trattamento.",
+          "keywords": "parita trattamento lavoro discriminazione",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "2",
+          "heading": "Nozione di discriminazione",
+          "explanation": "Definisce forme di discriminazione diretta e indiretta e altre fattispecie rilevanti.",
+          "keywords": "discriminazione diretta indiretta molestie",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "3",
+          "heading": "Ambito di applicazione",
+          "explanation": "Individua i contesti occupazionali e gli obblighi, compresi accomodamenti ragionevoli, con limiti ed eccezioni.",
+          "keywords": "accomodamenti ragionevoli selezione condizioni lavoro",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "4",
+          "heading": "Tutela giurisdizionale dei diritti",
+          "explanation": "Disciplina l'accesso alla tutela giudiziaria.",
+          "keywords": "ricorso tutela giudiziaria",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "4-bis",
+          "heading": "Protezione delle vittime",
+          "explanation": "Riguarda la protezione da conseguenze sfavorevoli connesse alle iniziative a tutela della parità.",
+          "keywords": "ritorsione tutela",
+          "relevance": "alta",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "5",
+          "heading": "Legittimazione ad agire",
+          "explanation": "Indica soggetti legittimati e strumenti di azione.",
+          "keywords": "associazioni legittimazione giudizio",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "5-bis",
+          "heading": "Ulteriori compiti dell'organismo per la parità",
+          "explanation": "Disposizione con efficacia temporale da valutare: il sommario MEF indica una versione decorrente dal 1 gennaio 2027.",
+          "keywords": "organismo parita futuro",
+          "relevance": "media",
+          "status": "scheda_da_validare",
+          "future_effect_warning": "La versione indicata dal portale MEF come decorrente dal 01/01/2027 non deve essere trattata come vigente all'08/11/2026"
+        },
+        {
+          "number": "6",
+          "heading": "Relazione",
+          "explanation": "Prevede una relazione sull'attuazione della disciplina.",
+          "keywords": "relazione monitoraggio",
+          "relevance": "media",
+          "status": "scheda_da_validare"
+        },
+        {
+          "number": "7",
+          "heading": "Copertura finanziaria",
+          "explanation": "Disciplina la copertura finanziaria dell'atto.",
+          "keywords": "copertura finanziaria",
+          "relevance": "bassa",
+          "status": "scheda_da_validare"
+        }
+      ]
+    }
+  ]
+}
