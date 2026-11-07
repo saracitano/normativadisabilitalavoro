@@ -74,7 +74,23 @@ def search(db, terms, with_text=False):
                 "relevance":r[5],"review_status":r[6],"warning":r[7],
                 "act_title":r[8],"source_url":r[9],"official_versions":r[10],
                 "score":score,"status":"testo_importato" if r[10] else "solo_scheda"})
-    return sorted(rows,key=lambda x:(-x["score"],x["act_id"],x["article"]))
+    # Include acts without article-level coverage: these are catalogue records,
+    # not authoritative article text or legally validated provisions.
+    act_query = """SELECT t.id,t.title,t.source_url,t.scope
+                   FROM acts t
+                   WHERE NOT EXISTS (SELECT 1 FROM articles a WHERE a.act_id=t.id)"""
+    for act_id,title,url,scope in db.execute(act_query).fetchall():
+        hay=(title+" "+scope).casefold()
+        score=sum(3 if token in title.casefold() else 2 if token in scope.casefold()
+                  else 0 for token in tokens)
+        if score:
+            rows.append({"act_id":act_id,"article":None,"title":title,
+                         "summary":"Scheda di atto, articoli e testo vigente ancora da acquisire",
+                         "relevance":"da_verificare","review_status":"atto_da_validare",
+                         "warning":"Non inferire diritti dalla sola identificazione dell'atto",
+                         "act_title":title,"source_url":url,"official_versions":0,
+                         "score":score,"status":"solo_atto"})
+    return sorted(rows,key=lambda x:(-x["score"],x["act_id"],x["article"] or ""))
 
 def main():
     p=argparse.ArgumentParser(description="Archivio NeuroLex: schede + importazione versioni integrali")
