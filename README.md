@@ -26,3 +26,10 @@ Questo repository è **pubblico**. Non pubblicare informazioni sanitarie, dati p
 - [Script di controllo riproducibile](critic/critic.py)
 
 Il critic distingue pertinenza diretta, condizionata, complementare e contesto; la valutazione automatica dei metadati **non equivale** alla validazione giuridica dell'atto.
+
+## Implementazione normativa sperimentale
+- [Archivio articoli, ricerca SQLite e importazione versioni testuali](app/README.md)
+- [Schede normative per articolo](app/seed.json)
+- [Codice Python dell'archivio](app/legislation.py)
+
+La prima release indicizza **33 schede di articoli** per L. 68/1999 e D.Lgs. 216/2003. Le sintesi non sostituiscono il testo integrale: il caricamento delle versioni ufficiali avviene mediante importazione tracciata e richiede revisione.
