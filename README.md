@@ -58,3 +58,10 @@ La prima release indicizza **33 schede di articoli** per L. 68/1999 e D.Lgs. 216
 - [Acquisizione da URL puntuali ufficiali](app/fetch_official.py)
 
 **Attenzione:** 63 atti censiti non equivalgono a 63 testi integrali importati. Le versioni non verificate non devono essere presentate come vigenti. I risultati dei test automatizzati sono controllabili nella scheda GitHub Actions.
+
+## Audit documentato di vigenza (8 novembre 2026)
+- [Relazione audit su tutte le 63 fonti censite](critic/AUDIT-VIGENZA-2026-11-08.md)
+- [Risultati strutturati e fonti di verifica](critic/audit-vigenza-2026-11-08.json)
+- [Critic: lettura degli stati con divieto di certificazione implicita](critic/vigenza_status.py)
+
+**Stato:** per 10 atti è stata rintracciata una fonte ufficiale che ne documenta la vigenza a livello di atto; 53 attendono verifica individuale. Nessun articolo è stato attestato vigente senza analisi della specifica versione. Questo non equivale alla revisione integrale del corpus.
