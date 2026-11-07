@@ -1,4 +1,8 @@
-# Catalogo delle fonti normative su disabilità e lavoro (ricognizione 8 novembre 2026)
+# Catalogo permanente delle fonti normative su disabilità, neurodivergenza e lavoro
+
+> **DOCUMENTO VIVO — aggiornamento progressivo.** Data di revisione editoriale: **8 novembre 2026**. Il catalogo è il punto di riferimento permanente: mantenere lo stesso percorso GitHub e integrare le nuove fonti tramite commit, evitando di creare versioni concorrenti. Ultimo controllo puntuale su fonti ufficiali (campione): 8 novembre 2026. **Questo non significa che tutte le fonti siano state ricontrollate.**
+
+**Legenda verifica**: ✅ fonte istituzionale e identificativo consultati; ◻️ inserita in censimento, da verificare testo/vigenza/disposizioni transitorie; ⏳ revisione necessaria dopo modifica normativa. Le voci prive di etichetta individuale devono considerarsi ◻️.
 
 **Progetto:** Neurodivergenza Diversità al lavoro — NeuroLex Lavoro  
 **Perimetro:** Italia, Unione europea, fonti internazionali recepite; 1994–2026, più norme anteriori indispensabili.  
@@ -119,3 +123,29 @@ Ogni fonte deve avere: identificativo, tipo, numero, data, titolo, giurisdizione
 - Verifica della **vigenza al giorno di consultazione**, anche per gli interventi normativi del 2025–2026.
 
 Il catalogo è un **indice di lavoro con fonti identificabili**, non un certificato di completezza né una consulenza legale.
+
+
+## 12. Controlli ufficiali documentati — 8 novembre 2026
+
+| Fonte | Verifica effettuata | Esito e limiti |
+|---|---|---|
+| [Legge 68/1999 (Normattiva)](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=099G0123&atto.dataPubblicazioneGazzetta=1999-03-23&classica=true&tipoDettaglio=vigente) | ✅ Esistenza, titolo, testo e storico delle versioni | Normattiva segnala aggiornamenti all'atto pubblicati fino al 27 giugno 2026; **non** è stata verificata singolarmente la vigenza di ciascun articolo |
+| [DM 43/2022 — Linee guida](https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-ministeriale-n.-43-dell11-marzo-2022) | ✅ Provvedimento e oggetto | Risultano linee guida ministeriali sul collocamento mirato; applicazioni territoriali da censire |
+| [Buone prassi collocamento mirato](https://lavoro.gov.it/temi-e-priorita/disabilita-e-non-autosufficienza/focus/pagine/buone-prassi-materia-di-collocamento) | ✅ Sezione ministeriale e DD 154/2023 | Non sostituisce le fonti normative né ha automaticamente valore di norma primaria |
+
+## 13. Protocollo di aggiornamento permanente
+
+1. **Cadenza di controllo proposta:** settimanale per Gazzetta Ufficiale, Normattiva, Ministero del Lavoro ed EUR-Lex; revisione editoriale trimestrale dell'intero catalogo.
+2. **Prima di aggiungere:** verificare fonte ufficiale, identificativo, data, articoli e nesso con disabilità/neurodivergenza e lavoro; evitare duplicazioni.
+3. **Versionamento:** conservare storico Git, registrare nella sezione *Registro modifiche* ogni nuovo atto o variazione sostanziale.
+4. **Vigenza:** non equiparare data dell'ultimo aggiornamento editoriale al testo vigente; verificare per atto e data, distinguendo disciplina transitoria e abrogazioni.
+5. **Classificazione:** legge/decreto/regolamento, atto amministrativo, giurisprudenza, soft law, prassi; evidenziare ambito territoriale e requisiti.
+6. **Trasparenza:** se la verifica automatizzata non raggiunge la fonte o l'accesso a GitHub non è disponibile, registrare l'anomalia e non dichiarare l'aggiornamento completato.
+7. **Revisioni:** l'automazione può individuare novità, ma non certifica da sola la correttezza giuridica del catalogo; occorre supervisione.
+
+### Registro modifiche
+
+| Data | Intervento | Stato |
+|---|---|---|
+| 2026-11-08 | Costituzione del catalogo nazionale/UE ampliato | Ricognizione iniziale |
+| 2026-11-08 | Conversione in documento permanente; inserimento protocollo di aggiornamento e controlli ufficiali documentati | Pubblicato |
