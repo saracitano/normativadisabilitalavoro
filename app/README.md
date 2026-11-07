@@ -43,3 +43,8 @@ La versione è salvata in SQLite; `show` consente di visualizzarla. **L'import n
 4. Interfaccia web e ricerca semantica RAG con prove testuali e controllo umano.
 
 Non sono ancora disponibili un servizio web pubblico, acquisizione automatica, classificazione dei commi o un sistema capace di garantire vigenza ed esattezza.
+
+## Estensione del corpus (8 novembre 2026)
+Il file `seed.json` ora comprende **63 atti** del catalogo italiano, UE e della prima ricognizione regionale. Restano **33 schede di articoli** per le due norme pilota. Le altre 61 fonti sono registrate **solo a livello di atto**: la ricerca restituisce esplicitamente `status: solo_atto`; ciò non implica che il testo sia stato acquisito o che la vigenza sia stata controllata.
+
+Il monitor tecnico è documentato in [monitor/README.md](../monitor/README.md). Le versioni integrate degli articoli restano da acquisire e validare prima dell'uso decisionale.
