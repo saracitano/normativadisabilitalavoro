@@ -1,5 +1,7 @@
 # Neurodivergenza Diversità al lavoro
 
+> **CONTINUITÀ DEL PROGETTO:** leggi per primo il [MASTERFILE.md](MASTERFILE.md), documento canonico con patrimonio scientifico, decisioni, architettura, audit, attività aperte e istruzioni per una nuova chat. Per la copia sul PC: [Clonazione Windows](docs/CLONARE-SU-WINDOWS.md).
+
 Patrimonio scientifico, pedagogico, normativo e progettuale per promuovere l'accesso equo al mondo del lavoro delle persone neurodivergenti e con disabilità.
 
 Questo repository ospita anche **NeuroLex Lavoro**, il progetto di applicazione web accessibile per ricercare e comprendere le norme italiane ed europee in tema di neurodivergenza, disabilità e lavoro, dal **1994 a oggi**, includendo disposizioni anteriori ancora rilevanti.
