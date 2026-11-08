@@ -64,4 +64,4 @@ La prima release indicizza **33 schede di articoli** per L. 68/1999 e D.Lgs. 216
 - [Risultati strutturati e fonti di verifica](critic/audit-vigenza-2026-11-08.json)
 - [Critic: lettura degli stati con divieto di certificazione implicita](critic/vigenza_status.py)
 
-**Stato:** per 10 atti è stata rintracciata una fonte ufficiale che ne documenta la vigenza a livello di atto; 53 attendono verifica individuale. Nessun articolo è stato attestato vigente senza analisi della specifica versione. Questo non equivale alla revisione integrale del corpus.
+**Stato:** per 45 atti è presente una traccia istituzionale nell'audit (con stati diversi: vigente, originario, circolare, ecc.); 18 attendono ancora verifica individuale. Nessun articolo è stato attestato vigente senza analisi della specifica versione. Questo non equivale alla revisione integrale del corpus.
