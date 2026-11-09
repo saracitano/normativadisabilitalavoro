@@ -1,0 +1,141 @@
+{
+  "last_run_at": "2026-11-09T08:32:09.775351+00:00",
+  "records": {
+    "L68-1999": {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=099G0123&atto.dataPubblicazioneGazzetta=1999-03-23&tipoDettaglio=vigente",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "5a9d0d6b4067352dfa564178cc4648d947072107a2d24685093c33d2a6534a34",
+      "etag": null,
+      "last_modified": null,
+      "size": 7918
+    },
+    "DLGS216-2003": {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0240&atto.dataPubblicazioneGazzetta=2003-08-13&tipoDettaglio=vigente",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "8707a1c2ac45ea2976b307a24ee91e5812330575584ea5d0ab10b489dda50b81",
+      "etag": null,
+      "last_modified": null,
+      "size": 4878
+    },
+    "L104-1992": {
+      "url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "ca6d8ff80bafad110e43f9b272b09a96348a028eaf9cdadab5c02cdb1b8046d0",
+      "etag": null,
+      "last_modified": null,
+      "size": 4789
+    },
+    "DIR2000-78": {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32000L0078",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 202,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "etag": null,
+      "last_modified": null,
+      "size": 0
+    },
+    "REG2016-679": {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 202,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "etag": null,
+      "last_modified": null,
+      "size": 0
+    },
+    "DIR2016-2102": {
+      "url": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj?locale=it",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 202,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "etag": null,
+      "last_modified": null,
+      "size": 0
+    },
+    "DIR2019-882": {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj?locale=it",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 202,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "etag": null,
+      "last_modified": null,
+      "size": 0
+    },
+    "DM2021-11-09": {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2021/12/28/21A07567/sg",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "869a53f52f96c409fb1753ea723d0d89d30b5a4ae6f44028e3734dea1cb68e31",
+      "etag": null,
+      "last_modified": null,
+      "size": 672
+    },
+    "DM43-2022": {
+      "url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-ministeriale-n.-43-dell11-marzo-2022",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "537eb5e5863ba948816c363c0b0ff1d3174f347877f6afd9773c97ba2df3b79c",
+      "etag": null,
+      "last_modified": "Mon, 09 Nov 2026 08:15:41 GMT",
+      "size": 5459
+    },
+    "DLGS62-2024": {
+      "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "d2f78a83b18ce0bf48758f56fdd331b2ff559505a663608a6fe8194856c072ee",
+      "etag": null,
+      "last_modified": null,
+      "size": 56605
+    },
+    "REG2024-1689": {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1689",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 202,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "etag": null,
+      "last_modified": null,
+      "size": 0
+    },
+    "DM94-2025": {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2025/06/27/25G00098/sg",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "b8e235731e7a873ebf8f735ffa5ffbc1f4ed8d07edb56bf2c59987365b2d8d64",
+      "etag": null,
+      "last_modified": null,
+      "size": 803
+    },
+    "L106-2025": {
+      "url": "https://www.normattiva.it/eli/id/2025/07/25/25G00114/CONSOLIDATED/",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "11ca2fe5fdd6441d782cf3a31afe0187faf04ad0815d94416a323b29415de82c",
+      "etag": null,
+      "last_modified": null,
+      "size": 7774
+    },
+    "LR13-2003-LOM": {
+      "url": "https://normelombardia.consiglio.regione.lombardia.it/accessibile/main.aspx?iddoc=lr002003080400013&view=showdoc",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "63680cab7d2a2d4eb0666e587544cec9af5dc44c784aef11b1b9fdcfab25f004",
+      "etag": null,
+      "last_modified": null,
+      "size": 142
+    },
+    "INPS99-2016": {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+99+del+13-06-2016.htm",
+      "checked_at": "2026-11-09T08:32:09.775351+00:00",
+      "status_code": 200,
+      "sha256": "4e0e0def4e4af0fc89d479278f76d0ad2ae4e278fe3a1de5a945499c0e32bdc2",
+      "etag": null,
+      "last_modified": null,
+      "size": 53356
+    }
+  },
+  "disclaimer": "Esiti tecnici, non certificazione del testo vigente."
+}

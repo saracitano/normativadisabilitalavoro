@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-11-09T08:32:09.775351+00:00",
+  "acts_in_catalogue": 63,
+  "urls_checked": 15,
+  "generic_urls_skipped": 48,
+  "results": {
+    "baseline_created": 15,
+    "insufficient_permalink": 48
+  },
+  "events": [
+    {
+      "id": "L68-1999",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DLGS216-2003",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "COST-IT",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L104-1992",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "L381-1991",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L118-1971",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L222-1984",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L113-1985",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L403-1971",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L29-1994",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS626-1994",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DPCM2000-01-13",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DPR333-2000",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DIR2000-78",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DLGS165-2001",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS151-2001",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L152-2001",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS276-2003",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS196-2003",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L4-2004",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L67-2006",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS198-2006",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L247-2007",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS81-2008",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L18-2009",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L170-2010",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS150-2011",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L92-2012",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DL76-2013",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L190-2014",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS150-2015",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS151-2015",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L112-2016",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "REG2016-679",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DIR2016-2102",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DLGS112-2017",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS117-2017",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS101-2018",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS106-2018",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DIR2019-882",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DL80-2021",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DM2021-11-09",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DM2021-12-29",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "L227-2021",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DL4-2022",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DM43-2022",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DLGS82-2022",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS105-2022",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DD154-2023",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS222-2023",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS20-2024",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "DLGS62-2024",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "REG2024-1689",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "DM94-2025",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "L106-2025",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "LR13-2003-LOM",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    },
+    {
+      "id": "INAIL258-2016",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "INAIL51-2016",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "INAIL30-2017",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "INAIL527-2018",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "INAIL6-2019",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "INAIL34-2020",
+      "result": "insufficient_permalink",
+      "note": "URL non specifico: servono ELI, permalink o riferimento atto."
+    },
+    {
+      "id": "INPS99-2016",
+      "result": "baseline_created",
+      "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
+    }
+  ],
+  "legal_validation": false,
+  "legal_qualification": "Controllo tecnico di raggiungibilità e possibili cambiamenti; revisione giuridica obbligatoria."
+}
