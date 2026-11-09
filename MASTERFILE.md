@@ -1,5 +1,5 @@
 # MASTERFILE — Neurodivergenza Diversità al lavoro
-> **Documento canonico di continuità del progetto** · Versione 1.0 · Revisione: **8 novembre 2026** · Repository: [saracitano/normativadisabilitalavoro](https://github.com/saracitano/normativadisabilitalavoro) · Branch: `main`.
+> **Documento canonico di continuità del progetto** · Versione 1.1 · Revisione: **9 novembre 2026** · Repository: [saracitano/normativadisabilitalavoro](https://github.com/saracitano/normativadisabilitalavoro) · Branch: `main`.
 >
 > **All'avvio di una nuova chat:** fornire questo URL e chiedere di leggere integralmente `MASTERFILE.md`, `README.md`, l'audit JSON e i file pertinenti prima di apportare modifiche. Il contenuto del masterfile è una *istantanea versionata*; non sostituisce la verifica degli ultimi commit.
 
@@ -150,6 +150,7 @@ Conservare URL **puntuali** degli atti, non soltanto la homepage dell'ente. Quan
 | Data | Versione | Modifica |
 |---|---|---|
 | 2026-11-08 | 1.0 | Creato masterfile canonico, consolidamento di progetto, ricerca, codice, normativo, Critic, audit e protocollo di continuità |
+| 2026-11-09 | 1.1 | Ricognizione ufficiale normativa: tre integrazioni retrospettive nel catalogo (DM 23/07/2026 incentivi, DPR 12/03/2026 Piano, CGUE C-597/24); nessuna nuova pubblicazione successiva all'8/11 confermata; vigenza articolo per articolo non certificata |
 
 ## 9. Come riprendere il lavoro in una nuova chat
 **Testo da incollare nella nuova chat:**
