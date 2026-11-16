@@ -171,3 +171,44 @@ Il catalogo è un **indice di lavoro con fonti identificabili**, non un certific
 **Esito per le fonti:** Gazzetta Ufficiale e Ministero del Lavoro hanno fornito riscontri ufficiali pertinenti; EUR-Lex ha fornito un riscontro giurisprudenziale ufficiale. Le ricerche mirate su Normattiva non hanno documentato un ulteriore atto modificativo *pubblicato dopo l'8 novembre 2026* direttamente pertinente. **L'assenza di risultati non prova che non esistano altre modifiche**: resta necessaria una verifica sistematica degli indici e delle versioni consolidate, articolo per articolo.
 
 **Regola di sicurezza:** il Critic deve tenere distinti `data_atto`, `data_pubblicazione`, `data_rilevazione`, `vigenza_verificata` e `applicabilita_verificata`; le tre integrazioni precedenti sono **recuperi retrospettivi** e non nuove pubblicazioni del 9 novembre.
+
+
+## 15. Ricognizione ufficiale del 16 novembre 2026
+
+**Periodo esaminato:** 10–16 novembre 2026 (successivo alla ricognizione del 9 novembre). **Fonti:** Gazzetta Ufficiale, Normattiva, Ministero del Lavoro ed EUR-Lex. **Esito:** una nuova fonte normativa italiana con pertinenza diretta per la protezione dalla profilazione della disabilità nel lavoro digitale, e un richiamo europeo collegato. Non è stata svolta una ricognizione esaustiva di tutti gli atti e delle singole modifiche dei 63 atti preesistenti.
+
+### Nuova fonte nazionale confermata — D.Lgs. 208/2026
+
+| Campo | Dato verificato |
+|---|---|
+| **Identificativo** | Decreto legislativo **2 novembre 2026, n. 208**, codice redazionale **26G00224** |
+| **Pubblicazione** | **GU Serie Generale n. 266 del 14 novembre 2026** |
+| **Oggetto** | Attuazione della direttiva (UE) 2024/2831, miglioramento delle condizioni di lavoro mediante piattaforme digitali; qualificazione del rapporto, trasparenza algoritmica, protezione dati, supervisione umana |
+| **Entrata in vigore** | **2 dicembre 2026** secondo la nota ufficiale GU. **Al 16 novembre 2026 è pubblicato ma non ancora in vigore** |
+| **Rilevanza diretta** | **Art. 6, comma 1, lettera e):** vieta, nei sistemi automatizzati disciplinati, il trattamento di dati personali per desumere informazioni relative alla disabilità e allo stato di salute, oltre alle altre caratteristiche indicate; **art. 6, comma 2:** estende la disciplina ai sistemi che prendono o supportano decisioni che incidono sui lavoratori di piattaforma |
+| **Altre disposizioni rilevanti** | Art. 8: trasparenza dei sistemi automatizzati anche in selezione; art. 9: supervisione umana; art. 5: presunzione di subordinazione e specifica decorrenza per rapporti preesistenti; artt. 17–18: protezione da ritorsioni e licenziamento connessi all'esercizio dei diritti del decreto |
+| **Ambito e limiti** | Il decreto riguarda il **lavoro tramite piattaforme digitali**, non tutti i rapporti di lavoro né tutte le forme di IA in selezione. L'eventuale applicabilità ai casi concreti richiede verifica dei requisiti e delle disposizioni transitorie. **Non considerare gli obblighi del decreto già efficaci al 16/11/2026** |
+| **Fonte primaria** | [Gazzetta Ufficiale, scheda ufficiale 26G00224](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26G00224&atto.dataPubblicazioneGazzetta=2026-11-14&elenco30giorni=false) |
+| **Testo consultato** | [GU n. 266 del 14/11/2026, PDF integrale](https://www.gazzettaufficiale.it/do/gazzetta/downloadPdf?dataPubblicazioneGazzetta=20261114&edizione=0&estensione=pdf&numeroGazzetta=266&numeroSupplemento=0&progressivo=0&tipoSerie=SG&tipoSupplemento=GU) |
+
+**Collegamento europeo:** [Direttiva (UE) 2024/2831](https://eur-lex.europa.eu/eli/dir/2024/2831/oj/ita), citata nel titolo e nell'art. 1 del decreto. Il riferimento è identificato nel testo ufficiale italiano; la consultazione diretta del documento EUR-Lex ha incontrato una pagina di verifica automatizzata, perciò **non è stata eseguita una nuova verifica indipendente della sua versione consolidata o di eventuali modifiche UE**.
+
+**Stato Critic:** `pubblicato_non_ancora_in_vigore`; verifica puntuale del testo originario GU eseguita per gli artt. 1–9, 17–18; non è una revisione completa delle modifiche future, dell'applicazione in concreto o dell'intero corpus. Inserimento nel catalogo, **non ancora in `app/seed.json`**.
+
+### Ulteriori controlli e limitazioni
+
+- **Gazzetta Ufficiale:** esaminati gli indici accessibili della Serie Generale del 9, 10, 11, 12 e 14 novembre. Il sommario del **13 novembre (n. 265)** non è stato accessibile nel controllo; non si afferma che tale fascicolo sia privo di novità. La GU del 12 novembre contiene anche la **L. 206/2026** su giovani e servizio civile, non inserita come norma sulla disabilità lavorativa perché non è stata dimostrata una disposizione pertinente.
+- **Normattiva:** verificato come riferimento di confronto il testo consolidato del **D.Lgs. 62/2024** con aggiornamento all'atto pubblicato il 7 agosto 2026 e del **D.Lgs. 20/2024** aggiornato al luglio 2026; **non sono state documentate nuove modifiche tra 10 e 16 novembre** a tali atti. La mancanza di modifiche individuate non equivale a certificazione della vigenza di tutti i commi.
+- **Ministero del Lavoro:** la pagina normativa sulla disabilità riporta il decreto interministeriale del 5 giugno 2026 sul Fondo per il diritto al lavoro, **già censito**; non è stato trovato in questa ricerca mirata un nuovo decreto ministeriale di novembre direttamente pertinente.
+- **EUR-Lex:** ricerca mirata su disabilità, lavoro e atti UE del periodo; **nessun nuovo atto UE pertinente verificato**. L'accesso al testo diretto della direttiva 2024/2831 è stato bloccato da verifica anti-bot, pertanto la sua vigenza e gli aggiornamenti non sono ricertificati.
+- **Fonti anteriori:** la GU del 7 novembre riporta il comunicato **26A05817** sul caregiver familiare, anteriore all'ultimo controllo. È stato notato ma **non classificato come nuovo atto del 10–16 novembre** e non è stata verificata la sua eventuale rilevanza lavorativa specifica.
+
+### Registro modifiche — aggiornamento 16 novembre 2026
+
+| Data | Intervento | Esito |
+|---|---|---|
+| 2026-11-16 | **Nuovo:** D.Lgs. 208/2026, GU 14/11/2026, art. 6 su inferenza della disabilità da dati mediante sistemi automatizzati; entrata in vigore **02/12/2026** | Fonte e articoli pertinenti riscontrati su GU; **non ancora vigente** al 16/11; aggiunto al catalogo |
+| 2026-11-16 | **Collegamento UE:** direttiva (UE) 2024/2831, attuata dal D.Lgs. 208/2026 | Identificativo confermato dalla GU; verifica diretta della versione EUR-Lex **non completata** |
+| 2026-11-16 | Ricerca GU/Normattiva/Ministero/EUR-Lex, confronto con ricognizione 09/11/2026 | Nessun'altra modifica pertinente confermata; GU 13/11 non accessibile; controllo non esaustivo |
+
+**Avvertenza:** non aggiornare automaticamente il numero degli atti del database `app/seed.json`: l'aggiunta in questo documento è **catalogazione**, non implementazione nel database. Nessuna certificazione di vigenza individuale o diritto esigibile è implicita.
