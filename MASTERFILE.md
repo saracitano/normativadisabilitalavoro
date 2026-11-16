@@ -151,6 +151,7 @@ Conservare URL **puntuali** degli atti, non soltanto la homepage dell'ente. Quan
 |---|---|---|
 | 2026-11-08 | 1.0 | Creato masterfile canonico, consolidamento di progetto, ricerca, codice, normativo, Critic, audit e protocollo di continuità |
 | 2026-11-09 | 1.1 | Ricognizione ufficiale normativa: tre integrazioni retrospettive nel catalogo (DM 23/07/2026 incentivi, DPR 12/03/2026 Piano, CGUE C-597/24); nessuna nuova pubblicazione successiva all'8/11 confermata; vigenza articolo per articolo non certificata |
+| 2026-11-16 | 1.2 | Nuovo D.Lgs. 208/2026 pubblicato il 14/11, efficace dal 02/12/2026: protezione dati sulla disabilità nel lavoro mediante piattaforme digitali (art. 6), trasparenza e supervisione; scheda documentata nel catalogo § 15. Database seed ancora 63 atti: **non** è stato aggiornato. Ricognizione UE e GU 13/11 non esaustiva |
 
 ## 9. Come riprendere il lavoro in una nuova chat
 **Testo da incollare nella nuova chat:**
