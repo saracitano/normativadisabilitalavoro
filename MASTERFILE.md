@@ -1,5 +1,5 @@
 # MASTERFILE — Neurodivergenza Diversità al lavoro
-> **Documento canonico di continuità del progetto** · Versione 1.1 · Revisione: **9 novembre 2026** · Repository: [saracitano/normativadisabilitalavoro](https://github.com/saracitano/normativadisabilitalavoro) · Branch: `main`.
+> **Documento canonico di continuità del progetto** · Versione 1.3 · Revisione: **16 novembre 2026** · Repository: [saracitano/normativadisabilitalavoro](https://github.com/saracitano/normativadisabilitalavoro) · Branch: `main`.
 >
 > **All'avvio di una nuova chat:** fornire questo URL e chiedere di leggere integralmente `MASTERFILE.md`, `README.md`, l'audit JSON e i file pertinenti prima di apportare modifiche. Il contenuto del masterfile è una *istantanea versionata*; non sostituisce la verifica degli ultimi commit.
 
@@ -37,11 +37,12 @@ Il progetto si fonda su una convergenza di:
 
 Le domande sopra sono **linee progettuali** e non risultati empirici dimostrati. Non trasferire qui dati individuali o indagini non autorizzate alla diffusione. Per il contesto generale v. [visione scientifica](docs/visione-scientifica.md).
 
-## 2. Banca dati normativa: strutture e copertura al 08/11/2026
-**Ultimo quadro controllato nei file GitHub al momento della redazione:**
+## 2. Banca dati normativa: strutture e copertura (ricontrollo 16/11/2026; seed aggiornato al 08/11/2026)
+**Stato dei file GitHub al 16/11/2026 (non certificazione normativa):**
 - **63 atti censiti** in [`app/seed.json`](app/seed.json).
 - **33 schede di articolo** relative a **2 atti pilota**: Legge 68/1999 e D.Lgs. 216/2003.
 - **61 atti** sono catalogati **solo a livello di atto**.
+- Il [catalogo documentale](normativa/CATALOGO-NORMATIVO-1994-2026.md) ha ricevuto integrazioni il **9 e il 16 novembre**, ma il **seed resta a 63 atti**, con ultimo aggiornamento interno 08/11/2026. Le nuove fonti **non sono ancora state implementate** nel database.
 - **0 testi XML integrali ufficiali distribuiti nel repository** per l'intero corpus; **0 articoli con attestazione giuridica completa**.
 - Archiviazione SQLite e importatori/analizzatori software presenti. La **presenza di codice** non prova l'esito dei test o un'importazione già eseguita.
 
@@ -53,6 +54,8 @@ Le domande sopra sono **linee progettuali** e non risultati empirici dimostrati.
 - [Descrizione dello stato tecnico e limiti](docs/STATO-IMPLEMENTAZIONE.md).
 
 **Famiglie di norme trattate:** collocamento mirato, quote e convenzioni, accertamento della disabilità, obblighi dei datori, antidiscriminazione e accomodamenti, concorsi e DSA, congedi e assistenza, lavoro pubblico, reinserimento INAIL, cooperazione/impresa sociale, sicurezza, privacy dei dati sanitari, accessibilità digitale, IA e selezione, norme UE e prime fonti regionali.
+
+**Aggiornamenti documentali da integrare nel seed:** il 09/11 sono state registrate tre integrazioni retrospettive (DM 23/07/2026 incentivi, DPR 12/03/2026 Piano, CGUE C-597/24). Il 16/11 il catalogo ha registrato il **D.Lgs. 208/2026**, pubblicato in GU il 14/11/2026 e con entrata in vigore indicata al **02/12/2026**: al 16/11 **non è ancora in vigore**. Riguarda il lavoro tramite piattaforme digitali e, secondo la ricognizione documentata nel catalogo § 15, l'art. 6 disciplina anche l'inferenza della disabilità dai dati nei sistemi automatizzati. Il riferimento alla direttiva (UE) 2024/2831 è presente nel catalogo, ma la sua versione consolidata non è stata riverificata direttamente su EUR-Lex. Queste schede non equivalgono a testi integrali importati o a una validazione giuridica articolo per articolo. Consultare il [catalogo, sezioni 14–15](normativa/CATALOGO-NORMATIVO-1994-2026.md) per fonti, date e limiti.
 
 **Esempi fondamentali (non elenco esaustivo):** L. 104/1992; L. 68/1999; DPR 333/2000; direttiva 2000/78/CE; D.Lgs. 216/2003; L. 67/2006; L. 18/2009 e Convenzione ONU; L. 170/2010 (DSA, pertinenza differenziata); D.Lgs. 151/2015; D.Lgs. 62/2024; L. 106/2025; Regolamento UE 2024/1689. Usare per ciascuno la fonte e la specifica versione temporale, non questa sintesi.
 
@@ -68,6 +71,7 @@ Esistono tre livelli distinti:
 - **18 fonti senza verifica individuale nell'audit**.
 - Classificazioni nell'audit: 30 atti con vigenza riscontrata a livello di atto, 2 con articolo consultabile, 1 con abrogazione parziale, 3 con solo testo originario, 1 con abrogazione da documentare puntualmente, 4 atti amministrativi pubblicati ma con operatività da controllare, 4 circolari rintracciate, 18 da verificare.
 - **0 articoli/commi certificati da revisione completa**.
+- Il file audit JSON **non è stato aggiornato** con la nuova fonte del 16/11; i suoi 63 record e le statistiche descrivono ancora il perimetro dell'08/11. Non includere la nuova fonte nelle percentuali di verifica senza aggiornare prima il dataset e rifare l'audit.
 
 **Regola vincolante:** una legge può comparire come atto vigente pur contenendo articoli abrogati, modificati o con efficacia futura. Il Critic **non deve mai dedurre** vigenza da HTTP 200, URL valido, hash invariato, testo originario o semplice presenza di una scheda. Le circolari sono atti amministrativi da valutare per attualità operativa, non leggi. I regolamenti UE possono avere scadenze applicative differenziate.
 
@@ -120,6 +124,8 @@ Conservare URL **puntuali** degli atti, non soltanto la homepage dell'ente. Quan
 
 ## 7. Registro delle lacune e priorità operative
 ### Priorità alta
+- **Riconciliare catalogo e database:** valutare l'inserimento nel seed del D.Lgs. 208/2026 e delle altre fonti documentate il 09/11, registrando date di pubblicazione/entrata in vigore e applicabilità; aggiornare solo allora il conteggio degli atti e l'audit.
+- **Rivedere il monitor tecnico:** il [rapporto del 09/11](monitor/latest-report.json) registra **15 URL controllati** e **48 URL generici saltati** su 63 atti; migliorare i permalink prima di attribuire copertura al monitor. Baseline/hash non dimostrano vigenza.
 - Completare **le 18 verifiche individuali ancora aperte** e rivedere le evidenze già presenti con URL e controllo della versione esatta.
 - Acquisire via canali ufficiali i testi **integrali** delle 63 fonti rilevanti, distinguendo leggi da atti amministrativi e fonti storiche.
 - Popolare articoli e commi; costruire **relazioni di modifica/abrogazione/efficacia differita**.
@@ -151,7 +157,8 @@ Conservare URL **puntuali** degli atti, non soltanto la homepage dell'ente. Quan
 |---|---|---|
 | 2026-11-08 | 1.0 | Creato masterfile canonico, consolidamento di progetto, ricerca, codice, normativo, Critic, audit e protocollo di continuità |
 | 2026-11-09 | 1.1 | Ricognizione ufficiale normativa: tre integrazioni retrospettive nel catalogo (DM 23/07/2026 incentivi, DPR 12/03/2026 Piano, CGUE C-597/24); nessuna nuova pubblicazione successiva all'8/11 confermata; vigenza articolo per articolo non certificata |
-| 2026-11-16 | 1.2 | Nuovo D.Lgs. 208/2026 pubblicato il 14/11, efficace dal 02/12/2026: protezione dati sulla disabilità nel lavoro mediante piattaforme digitali (art. 6), trasparenza e supervisione; scheda documentata nel catalogo § 15. Database seed ancora 63 atti: **non** è stato aggiornato. Ricognizione UE e GU 13/11 non esaustiva |
+| 2026-11-16 | 1.2 | Nuovo D.Lgs. 208/2026 pubblicato il 14/11, con entrata in vigore indicata al 02/12/2026: protezione dati sulla disabilità nel lavoro mediante piattaforme digitali (art. 6), trasparenza e supervisione; scheda documentata nel catalogo § 15. Database seed ancora 63 atti: **non** aggiornato. Ricognizione UE e GU 13/11 non esaustiva |
+| 2026-11-16 | 1.3 | Riconciliazione con README, seed, audit, catalogo e commit recenti; corretta intestazione ferma a 1.1, distinta la nuova fonte nel catalogo dai 63 atti del database; registrato monitor 09/11 (15 URL controllati, 48 generici esclusi); aggiunte priorità per integrazione e controllo temporale. Nessuna certificazione articolo/comma |
 
 ## 9. Come riprendere il lavoro in una nuova chat
 **Testo da incollare nella nuova chat:**
