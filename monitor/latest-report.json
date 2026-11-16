@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-11-09T08:32:09.775351+00:00",
+  "generated_at": "2026-11-16T09:46:26.357931+00:00",
   "acts_in_catalogue": 63,
   "urls_checked": 15,
   "generic_urls_skipped": 48,
   "results": {
-    "baseline_created": 15,
-    "insufficient_permalink": 48
+    "possible_change_review_required": 3,
+    "insufficient_permalink": 48,
+    "no_page_change_detected": 12
   },
   "events": [
     {
       "id": "L68-1999",
-      "result": "baseline_created",
+      "result": "possible_change_review_required",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
       "id": "DLGS216-2003",
-      "result": "baseline_created",
+      "result": "possible_change_review_required",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -25,7 +26,7 @@
     },
     {
       "id": "L104-1992",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -75,7 +76,7 @@
     },
     {
       "id": "DIR2000-78",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -175,12 +176,12 @@
     },
     {
       "id": "REG2016-679",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
       "id": "DIR2016-2102",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -205,7 +206,7 @@
     },
     {
       "id": "DIR2019-882",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -215,7 +216,7 @@
     },
     {
       "id": "DM2021-11-09",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -235,7 +236,7 @@
     },
     {
       "id": "DM43-2022",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -265,27 +266,27 @@
     },
     {
       "id": "DLGS62-2024",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
       "id": "REG2024-1689",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
       "id": "DM94-2025",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
       "id": "L106-2025",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
       "id": "LR13-2003-LOM",
-      "result": "baseline_created",
+      "result": "possible_change_review_required",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     },
     {
@@ -320,7 +321,7 @@
     },
     {
       "id": "INPS99-2016",
-      "result": "baseline_created",
+      "result": "no_page_change_detected",
       "note": "Impronta pagina: NON certifica vigenza o contenuto dell'atto."
     }
   ],
